@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>MOVIE TICKET PICKER</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>MOVIE TICKET PICKER</h1>
+    <form id="ticketPicker">
+      <div class="form-group">
+        <label for="movie">Pick a movie!</label>
+        <select id="moviePick" class="form-control">
+          <option value="Lord of the Rings">Lord of the Rings</option>
+          <option value="Avengers 7: The Dawn of Tommorow's Final Battle of the Universe">Avengers 7: The Dawn of Tommorow's Final Battle of the Universe</option>
+          <option value="Jumanji">Jumanji</option>
+        </select>
+      <div class="form-group">
+        <label for="age">Select your age group</label>
+        <select id="agePick" class="form-control">
+          <option value="Under 17">Under 17</option>
+          <option value="Adult">Adult</option>
+          <option value="Senior">Senior</option>
+        </select>
+      <div class="form-group">
+        <label for="time">Select showing</label>
+        <select id="timePick" class="form-control">
+          <option value="11AM">11AM</option>
+          <option value="4PM">4PM</option>
+          <option value="9PM">9PM</option>
+        </select>
+        <button type="submit" class=".btn-lg btn-primary">Submit</button>
+    </form>
+    <div class="container">
+      <ul id="ticketInfo">
+      </ul>
+      <span id="price"></span>
+    </div>
+
+  </div>
+</body>
+
+</html>
